@@ -1,0 +1,37 @@
+# General files
+.DS_Store  # Mac-specific
+.env
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# Django
+/backend/migrations/
+/backend/static/
+/backend/media/
+
+# TypeScript/Tailwind CSS
+node_modules/
+dist/
+build/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Logs
+*.log
+
+# Other temporary or build files
+*.pyc
+*.pyo
+*.swp
+*.tmp
+*.bak
+*.egg-info
+*.egg
